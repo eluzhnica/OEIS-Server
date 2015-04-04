@@ -1,0 +1,15 @@
+@(expressionForm : Form[QueryExpression])
+
+@import helper._
+
+@main("KWARC") {
+
+    <h1>Parse OEIS expressions</h1>
+    
+    @form(routes.Application.parseExpr){
+        @inputText(expressionForm("expression"))
+        
+        <input type="submit" value = "Parse">
+    }
+
+}

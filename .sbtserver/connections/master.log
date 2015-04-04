@@ -1,0 +1,43 @@
+New log file opened at Sat Apr 04 03:35:04 CEST 2015 by 27163@NG
+Taking next connection to: 52805
+New client attempting to connect on port: 58782-52805
+  Address = /127.0.1.1:52805
+This client on port 58782 has uuid 3da57b38-e816-40f1-81e5-13420a19e63f configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-3da57b38-e816-40f1-81e5-13420a19e63f
+Taking next connection to: 52805
+New client attempting to connect on port: 58784-52805
+  Address = /127.0.1.1:52805
+Handshake exception on socket: 58784
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 52805
+New client attempting to connect on port: 58785-52805
+  Address = /127.0.1.1:52805
+This client on port 58785 has uuid 2ad90858-2861-4f9e-b68f-7988730d0fe8 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-3da57b38-e816-40f1-81e5-13420a19e63f, play-fork-run-2ad90858-2861-4f9e-b68f-7988730d0fe8
+Taking next connection to: 52805
+New client attempting to connect on port: 58833-52805
+  Address = /127.0.1.1:52805
+Handshake exception on socket: 58833
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 52805
+New client attempting to connect on port: 58834-52805
+  Address = /127.0.1.1:52805
+This client on port 58834 has uuid 5196081b-5b08-4bb5-941a-30ba156ce19e configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-2ad90858-2861-4f9e-b68f-7988730d0fe8, activator-5196081b-5b08-4bb5-941a-30ba156ce19e
+Taking next connection to: 52805
