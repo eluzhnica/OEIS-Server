@@ -12,4 +12,4 @@ unmanagedJars in Compile += file("lib/oeis_1.jar")
 
 unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )
 
-fork in run := true
+//fork in run := true
